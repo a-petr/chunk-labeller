@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# model checkpoints — tracked on HuggingFace Hub, not git
+jobbert_chunk_classifier/
+
+# large data files
+chunks_labelled_qwen_parts/
+*.parquet
